@@ -18,19 +18,14 @@ const FindCarForm = () => {
           <input type="text" placeholder="Owner" required />
         </FormGroup>
 
-        
-
-       
         <FormGroup className="select__group" placeholder="Transmission">
-          <select >
-            
+          <select>
             <option value="non-ac">Manual</option>
             <option value="non-ac">Automatic</option>
           </select>
         </FormGroup>
-         <FormGroup className="form__group">
+        <FormGroup className="form__group">
           <input type="text" placeholder="Fuel Type" required />
-         
         </FormGroup>
 
         <FormGroup className="form__group">
